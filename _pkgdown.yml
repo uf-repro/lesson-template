@@ -1,0 +1,40 @@
+template:
+  params:
+    bootswatch: darkly
+  assets:
+    slides
+
+toc:
+  depth: 4
+
+navbar:
+   structure:
+     left:
+      - articles
+      - references
+     right:
+      - syllabus
+      - slides
+      - resources
+      - home
+      - github
+   components:
+     articles:
+       text:
+     reference:
+       text:
+     home:
+       icon: fas fa-home fa-lg
+       href: index.html
+     syllabus:
+       text: Syllabus
+       href: syllabus.html
+     slides:
+       text: Slides
+       href: slides.html
+     resources:
+       text: Resources
+       href: resources.html
+
+home:
+    sidebar: FALSE

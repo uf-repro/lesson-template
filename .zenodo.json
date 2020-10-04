@@ -1,0 +1,20 @@
+{
+"title": "lesson-template",
+"creators": [
+    {
+      "affiliation": "University of Florida",
+      "name": "Hao Ye",
+      "orcid": "0000-0002-8630-1458"
+    }
+],
+    "description": "What the package does (one paragraph).",
+    "keywords": [
+    "Open Educational Resources",
+    "Research Support Skills",
+    "Version Control",
+    "Workshop"
+  ],
+    "access_right": "open",
+    "license": "CC-BY-4.0",
+    "upload_type": "lesson"
+}

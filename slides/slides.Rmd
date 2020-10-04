@@ -1,0 +1,91 @@
+---
+title: "lesson-template"
+author: "Hao Ye"
+institute: "Health Science Center Libraries, University of Florida"
+date: "(updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    seal: false
+    fig_caption: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#09274B",
+  base_font_size = "32px", 
+  header_h1_font_size = "2.0rem",
+  header_h2_font_size = "1.5rem",
+  header_h3_font_size = "1.25rem", 
+  header_background_content_padding_top = "2rem", 
+  header_font_google = google_font("Lato"),
+  text_font_google   = google_font("Montserrat", "300", "300i", "500"),
+  code_font_google   = google_font("Source Code Pro", "300", "500"), 
+  extra_css = list("p" = list("margin-block-start" = "0.5em", 
+                              "margin-block-end" = "0.5em"), 
+                   "ul" = list("margin-block-start" = "0.5em", 
+                              "margin-block-end" = "0.5em"), 
+                   "li" = list("margin-block-start" = "0.5em", 
+                              "margin-block-end" = "0.5em"), 
+                   "pre" = list("margin-top" = "0.5em", 
+                              "margin-bottom" = "0.5em"), 
+                   ".caption" = list("display" = "none")), 
+  link_color = "#339944"
+)
+```
+class: inverse, center, middle
+
+# `r rmarkdown::metadata$title`
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$institute`
+### (updated: `r Sys.Date()`)
+
+---
+# Motivations
+
+* because
+
+---
+# Learning Outcomes
+
+By the end of the workshop, participants will be able to:
+* 
+
+---
+class: inverse, center, middle
+
+# Subheading
+
+---
+# Topic
+
+Description
+
+--
+## So what?
+
+* reason!
+* another reason!
+
+---
+
+```{r, echo = FALSE, fig.cap = "Figure alt-text"}
+knitr::include_graphics("image.jpg")
+```
+
+---
+# Thanks
+
+* Let me know what content you'd like to see
+* Contact me for additional questions or consultation requests!
+* Check back in on the libguide for more modules and contact info:
+  - https://guides.uflib.ufl.edu/reproducibility
