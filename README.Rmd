@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+```{r, include = FALSE}
+
+lesson_title <- "Github Repo Template for a Pkgdown Lesson"
+lesson_description <- "This github repository serves as a template for a short-form workshop, lesson, or course to be shared in the form of a pkgdown website with slides rendered by xaringan. This description text for the package and lesson should be written in `README.Rmd`, which, when knit, will then update the package's `DESCRIPTION` file."
+
+desc::desc_set(Title = lesson_title, 
+               Description = lesson_description)
+```
+
+
+# `r lesson_title`
+
+<!-- badges: start -->
+[![GitHub Actions pkgdown workflow](https://github.com/uf-repro/lesson-template/workflows/pkgdown/badge.svg)](https://github.com/uf-repro/lesson-template/actions?query=workflow%3Apkgdown)
+
+
+<!-- badges: end -->
+
+## Description
+
+`r lesson_description`
+
+## Learning Outcomes
+
+By the end of the workshop, participants will be able to:
+* 
+
+## References
+
+

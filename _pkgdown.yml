@@ -13,7 +13,7 @@ navbar:
       - articles
       - references
      right:
-      - syllabus
+      - notes
       - slides
       - resources
       - home
@@ -26,9 +26,9 @@ navbar:
      home:
        icon: fas fa-home fa-lg
        href: index.html
-     syllabus:
-       text: Syllabus
-       href: syllabus.html
+     notes:
+       text: Notes
+       href: notes.html
      slides:
        text: Slides
        href: slides.html
