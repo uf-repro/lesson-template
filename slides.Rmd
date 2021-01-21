@@ -1,5 +1,5 @@
 ---
-title: "lesson-template"
+title: "`r desc::desc_get('Title', '..')`"
 author: "Hao Ye"
 institute: "Health Science Center Libraries, University of Florida"
 date: "(updated: `r Sys.Date()`)"
@@ -44,7 +44,7 @@ style_mono_accent(
 ```
 class: inverse, center, middle
 
-# `r rmarkdown::metadata$title`
+# `r desc::desc_get('Title', '..')`
 ### `r rmarkdown::metadata$author`
 ### `r rmarkdown::metadata$institute`
 ### (updated: `r Sys.Date()`)
