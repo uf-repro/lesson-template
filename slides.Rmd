@@ -38,7 +38,9 @@ style_mono_accent(
                               "margin-block-end" = "0.5em"), 
                    "pre" = list("margin-top" = "0.5em", 
                               "margin-bottom" = "0.5em"), 
-                   ".caption" = list("display" = "none")), 
+                   ".caption" = list("display" = "none"), 
+                   ".small" = list("font-size" = "80%"), 
+                   ".tiny" = list("font-size" = "50%")), 
   link_color = "#339944"
 )
 ```

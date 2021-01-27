@@ -274,3 +274,9 @@ pre {
 .caption {
   display: none;
 }
+.small {
+  font-size: 80%;
+}
+.tiny {
+  font-size: 50%;
+}
