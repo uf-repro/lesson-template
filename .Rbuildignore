@@ -1,3 +1,9 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
+^\.zenodo\.json$
+^_pkgdown\.yml$
+^\.github$
+^LICENSE.md$
+^resources.md$
+^slides$
