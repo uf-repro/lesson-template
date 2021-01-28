@@ -8,7 +8,6 @@ output:
     lib_dir: libs
     css: xaringan-themer.css
     seal: false
-    fig_caption: false
     nature:
       highlightStyle: github
       highlightLines: true
@@ -38,7 +37,6 @@ style_mono_accent(
                               "margin-block-end" = "0.5em"), 
                    "pre" = list("margin-top" = "0.5em", 
                               "margin-bottom" = "0.5em"), 
-                   ".caption" = list("display" = "none"), 
                    ".small" = list("font-size" = "80%"), 
                    ".tiny" = list("font-size" = "50%")), 
   link_color = "#339944"
@@ -80,7 +78,7 @@ Description
 
 ---
 
-```{r, echo = FALSE, fig.cap = "Figure alt-text"}
+```{r, echo = FALSE, out.width = "70%", fig.cap = "Falafel!", fig.alt = "Alt Text: A tan and white dog (retriever mix) is lying on a tile floor and looking up at the camera with his mouse open, seemingly happy. There is a food container on his body with the label 'Tzatziki' visible. (This is a visual pun on the dog's name, Falafel)"}
 knitr::include_graphics("image.jpg")
 ```
 
