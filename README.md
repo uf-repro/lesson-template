@@ -20,6 +20,7 @@ update the package’s `DESCRIPTION` file.
 
 ## Learning Outcomes
 
-By the end of the workshop, participants will be able to: \*
+By the end of the workshop, participants will be able to:
 
+  - 
 ## References
