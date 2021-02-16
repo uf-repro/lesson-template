@@ -47,9 +47,17 @@ jsonlite::write_json(zenodo_json, ".zenodo.json",
 
 ## Learning Outcomes
 
+```{r, include = FALSE}
+learning_outcomes <- c("something", 
+                       "something else",
+                       "thing 3")
+outcomes_text <- paste0("* ", learning_outcomes, collapse = "\n")
+desc::desc_set("learningOutcomes", outcomes_text)
+```
+
 By the end of the workshop, participants will be able to:
 
-* 
+`r outcomes_text`
 
 ## References
 

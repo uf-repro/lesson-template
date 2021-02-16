@@ -58,7 +58,8 @@ class: inverse, center, middle
 # Learning Outcomes
 
 By the end of the workshop, participants will be able to:
-* 
+
+`r gsub("\n ", "\n", desc::desc_get("learningOutcomes"))`
 
 ---
 class: inverse, center, middle

@@ -1,0 +1,20 @@
+{
+  "title": "Github Repo Template for a Pkgdown Lesson",
+  "creators": [
+    {
+      "affiliation": "University of Florida",
+      "name": "Hao Ye",
+      "orcid": "0000-0002-8630-1458"
+    }
+  ],
+  "description": "This github repository serves as a template for a short-form workshop, lesson, or course to be shared in the form of a pkgdown website with slides rendered by xaringan. This description text for the package and lesson should be written in `README.Rmd`, which, when knit, will then update the package's `DESCRIPTION` file.",
+  "keywords": [
+    "Open Educational Resources",
+    "Research Support Skills",
+    "Version Control",
+    "Workshop"
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "upload_type": "lesson"
+}
