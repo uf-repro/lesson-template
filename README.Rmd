@@ -21,8 +21,11 @@ lesson_keywords <- c("Open Educational Resources",
                      "Research Support Skills", 
                      "Version Control", 
                      "Workshop")
+folder_name <- basename(usethis::proj_get())
+package_name <- gsub("-", ".", folder_name)
 
-desc::desc_set(Title = lesson_title, 
+desc::desc_set(Package = package_name, 
+               Title = lesson_title, 
                Description = lesson_description)
 
 zenodo_json <- jsonlite::read_json(".zenodo.json")
@@ -45,6 +48,23 @@ jsonlite::write_json(zenodo_json, ".zenodo.json",
 
 `r lesson_description`
 
+## Prerequisites
+```{r, include = FALSE}
+prereqs <- c("how to fold cheese", 
+             "how to fold cheesecloth")
+prereqs_text <- paste0("* ", prereqs, collapse = "\n")
+desc::desc_set("prerequisites", prereqs_text)
+
+prior_course <- ""
+desc::desc_set("priorCourse", prior_course)
+```
+
+This lesson assumes you:
+
+`r prereqs_text`
+
+Such as via `r prior_course`
+
 ## Learning Outcomes
 
 ```{r, include = FALSE}
@@ -58,7 +78,3 @@ desc::desc_set("learningOutcomes", outcomes_text)
 By the end of the workshop, participants will be able to:
 
 `r outcomes_text`
-
-## References
-
-

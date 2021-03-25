@@ -14,10 +14,17 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Imports:
-    desc, 
+    desc,
     jsonlite,
-    knitr (>= 1.31), 
+    knitr (>= 1.31),
     showtext,
     xaringan,
-    xaringanthemer
+    xaringanthemer,
+    usethis
 title: Github Repo Template for a Pkgdown Lesson
+learningOutcomes: * something
+ * something else
+ * thing 3
+prerequisites: * how to fold cheese
+ * how to fold cheesecloth
+priorCourse: 

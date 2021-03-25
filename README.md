@@ -18,9 +18,19 @@ slides rendered by xaringan. This description text for the package and
 lesson should be written in `README.Rmd`, which, when knit, will then
 update the package’s `DESCRIPTION` file.
 
+## Prerequisites
+
+This lesson assumes you:
+
+  - how to fold cheese
+  - how to fold cheesecloth
+
+Such as via
+
 ## Learning Outcomes
 
 By the end of the workshop, participants will be able to:
 
-  - 
-## References
+  - something
+  - something else
+  - thing 3

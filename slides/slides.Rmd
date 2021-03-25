@@ -55,6 +55,14 @@ class: inverse, center, middle
 * because
 
 ---
+# Prerequisites
+
+This lesson assumes you:
+`r gsub("\n ", "\n", desc::desc_get("prerequisites"))`
+
+Such as via `r desc::desc_get("priorCourse")`
+
+---
 # Learning Outcomes
 
 By the end of the workshop, participants will be able to:
