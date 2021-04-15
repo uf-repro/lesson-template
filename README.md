@@ -20,12 +20,12 @@ update the package’s `DESCRIPTION` file.
 
 ## Prerequisites
 
-This lesson assumes you:
+This lesson assumes you know:
 
   - how to fold cheese
   - how to fold cheesecloth
 
-Such as via
+Such as via Origami for Cheesemakers 101
 
 ## Learning Outcomes
 

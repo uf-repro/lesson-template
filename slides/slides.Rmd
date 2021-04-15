@@ -8,6 +8,7 @@ output:
     lib_dir: libs
     css: xaringan-themer.css
     seal: false
+    fig_caption: false
     nature:
       highlightStyle: github
       highlightLines: true

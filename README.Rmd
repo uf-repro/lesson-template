@@ -55,11 +55,11 @@ prereqs <- c("how to fold cheese",
 prereqs_text <- paste0("* ", prereqs, collapse = "\n")
 desc::desc_set("prerequisites", prereqs_text)
 
-prior_course <- ""
+prior_course <- "Origami for Cheesemakers 101"
 desc::desc_set("priorCourse", prior_course)
 ```
 
-This lesson assumes you:
+This lesson assumes you know:
 
 `r prereqs_text`
 
