@@ -1,6 +1,6 @@
 pandoc: 2.7.3
-pkgdown: 1.6.1.9001
-pkgdown_sha: 8e0838e273462cec420dfa20f240c684a33425d9
+pkgdown: 2.0.3.9000
+pkgdown_sha: 855eba1ad3f486bbda9fcbe43ec8eb88066f161a
 articles: {}
-last_built: 2021-04-15T15:01Z
+last_built: 2022-06-07T15:23Z
 
