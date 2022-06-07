@@ -23,8 +23,8 @@ update the package’s `DESCRIPTION` file.
 
 This lesson assumes you know:
 
-  - how to fold cheese
-  - how to fold cheesecloth
+-   how to fold cheese
+-   how to fold cheesecloth
 
 Such as via Origami for Cheesemakers 101
 
@@ -32,6 +32,6 @@ Such as via Origami for Cheesemakers 101
 
 By the end of the workshop, participants will be able to:
 
-  - something
-  - something else
-  - thing 3
+-   something
+-   something else
+-   thing 3
