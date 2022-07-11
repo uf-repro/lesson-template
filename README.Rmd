@@ -25,10 +25,15 @@ lesson_version <- "0.0.2"
 
 folder_name <- basename(usethis::proj_get())
 package_name <- gsub("-", ".", folder_name)
+github_url <- sub("^git@github\\.com:", "https://github.com/", 
+                  sub("\\.git$", "", usethis::git_remotes()$origin)
+)
 
 desc::desc_set(Package = package_name, 
                Title = lesson_title, 
                Description = lesson_description, 
+               Version = lesson_version, 
+               URL = github_url, 
                Version = lesson_version, 
                "X-schema.org-keywords" = paste(lesson_keywords, collapse = ", "))
 ```

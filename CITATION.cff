@@ -32,6 +32,8 @@ preferred-citation:
     by xaringan. This description text for the package and lesson should be written
     in `README.Rmd`, which, when knit, will then update the package's `DESCRIPTION`
     file.
+  repository-code: https://github.com/uf-repro/lesson-template
+  url: https://github.com/uf-repro/lesson-template
   contact:
   - family-names: Ye
     given-names: Hao
@@ -44,6 +46,8 @@ preferred-citation:
   - Workshop
   license: CC-BY-4.0
   year: '2022'
+repository-code: https://github.com/uf-repro/lesson-template
+url: https://github.com/uf-repro/lesson-template
 contact:
 - family-names: Ye
   given-names: Hao
