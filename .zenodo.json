@@ -1,5 +1,6 @@
 {
   "title": "Github Repo Template for a Pkgdown Lesson",
+  "version": "0.0.3",
   "creators": [
     {
       "affiliation": "University of Florida",
@@ -14,6 +15,6 @@
     "Version Control",
     "Workshop"
   ],
-  "license": "CC BY 4.0",
+  "license": "CC-BY-4.0",
   "upload_type": "lesson"
 }

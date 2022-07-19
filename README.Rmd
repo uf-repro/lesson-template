@@ -34,16 +34,18 @@ desc::desc_set(Package = package_name,
                Description = lesson_description, 
                Version = lesson_version, 
                URL = github_url, 
-               Version = lesson_version)
+               Version = lesson_version, 
+               "X-schema.org-keywords" = paste(lesson_keywords, collapse = ", "))
 
 cite_data <- list(
     title = lesson_title, 
+    version = lesson_version, 
     creators = list(list(affiliation = "University of Florida", 
                  name = "Hao Ye", 
                  orcid = "0000-0002-8630-1458")), 
     description = lesson_description, 
     keywords = as.list(lesson_keywords), 
-    license = desc::desc_get("License"), 
+    license = cffr:::parse_desc_license(desc::desc()), 
     upload_type = "lesson"
 )
 
