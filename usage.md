@@ -6,9 +6,15 @@ This github repository serves as a template for a short-form workshop, lesson, o
 
 1. Click the green "Use this template" button from https://github.com/uf-repro/lesson-template.
 
-2. Modify `README.Rmd` with basic metadata for the package and lesson. When knit, this will produce an updated `README.md` file and also update the package's `DESCRIPTION` file. *Be sure to update the badges to point to the correct repo location!*
+2. Modify `README.Rmd` with basic metadata for the package and lesson.
+  - When knit, this will produce an updated `README.md` file and also update the package's `DESCRIPTION` file.
+  - Note: fields such as `prerequisites`, `priorCourse`, and `learningOutcomes` are read from the `DESCRIPTION` file for intro content in the slides.
+  - *Be sure to update the badges to point to the correct repo location!*
 
-3. Update the slides at `slides/slides.Rmd`. You may want to read up on the instructions for [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html) - the basic platform, as well as [kunoichi](https://emitanaka.org/ninja-theme/themes/kunoichi/kunoichi-theme-example.html) - a theme with some fancier CSS styling, and [xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer/) - an extension with more font/color customizability.
+3. Update the slides at `slides/slides.Rmd`.
+  - You may want to read up on the instructions for [xaringan](https://bookdown.org/yihui/rmarkdown/xaringan.html) - the basic platform,
+  - [kunoichi](https://emitanaka.org/ninja-theme/themes/kunoichi/kunoichi-theme-example.html) - a theme with some fancier CSS styling, and
+  - [xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer/) - an extension with more font/color customizability.
 
 4. Update the list of resources at `resources.md`
 
