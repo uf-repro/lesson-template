@@ -21,7 +21,7 @@ lesson_keywords <- c("Open Educational Resources",
                      "Research Support Skills", 
                      "Version Control", 
                      "Workshop")
-lesson_version <- "0.0.4"
+lesson_version <- "0.0.5"
 
 folder_name <- basename(usethis::proj_get())
 package_name <- gsub("-", ".", folder_name)
@@ -65,6 +65,10 @@ jsonlite::write_json(cite_data, ".zenodo.json",
 ## Description
 
 `r lesson_description`
+
+## Usage
+
+[Detailed instructions](https://uf-repro.github.io/lesson-template/usage.html) are available for using this template.
 
 ## Prerequisites
 ```{r, include = FALSE}

@@ -16,6 +16,7 @@ navbar:
       - notes
       - slides
       - resources
+      - usage
       - home
       - github
    components:
@@ -35,6 +36,9 @@ navbar:
      resources:
        text: Resources
        href: resources.html
+     usage:
+       text: Usage
+       href: usage.html
 
 home:
     sidebar: FALSE

@@ -1,6 +1,6 @@
 Package: lesson.template
 Title: Github Repo Template for a Pkgdown Lesson
-Version: 0.0.4
+Version: 0.0.5
 Authors@R: 
     person(given = "Hao",
            family = "Ye",

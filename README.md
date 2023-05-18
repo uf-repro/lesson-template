@@ -19,12 +19,18 @@ slides rendered by xaringan. This description text for the package and
 lesson should be written in `README.Rmd`, which, when knit, will then
 update the package’s `DESCRIPTION` file.
 
+## Usage
+
+[Detailed
+instructions](https://uf-repro.github.io/lesson-template/usage.html) are
+available for using this template.
+
 ## Prerequisites
 
 This lesson assumes you know:
 
--   how to fold cheese
--   how to fold cheesecloth
+- how to fold cheese
+- how to fold cheesecloth
 
 Such as via Origami for Cheesemakers 101
 
@@ -32,6 +38,6 @@ Such as via Origami for Cheesemakers 101
 
 By the end of the workshop, participants will be able to:
 
--   something
--   something else
--   thing 3
+- something
+- something else
+- thing 3
